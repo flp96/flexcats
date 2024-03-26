@@ -119,4 +119,61 @@ img {
     padding: 12px;
 }
 
+/* Raças */
+
+.racas {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.racas h1 {
+    font-size: 2.25em;
+    padding: 0px 10px 60px 10px;
+}
+
+.racas-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.raca-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.raca-item h2 {
+    font-size: 1.5em;
+    padding: 60px 20px;
+    text-align: center;
+    color: #D3AE70;
+    background: #FFEED2;
+}
+
+.siames {
+    border-top: 8px solid #A0E7E5;
+}
+
+.siames img {
+    height: 200px;
+}
+
+.persa {
+    border-top: 8px solid #FFAEBC;
+}
+
+.angora {
+    border-top: 8px solid #B4F8C8;
+}
+
+/* Ciclo */
+
+.ciclo {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ciclo-container {
+    display: flex;
+}
 
