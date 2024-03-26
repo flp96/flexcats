@@ -5,6 +5,7 @@ body, h1, h2, p, ul, li, a {
 
 body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background: #FFF5E4;
 }
 
 ul {
@@ -86,14 +87,36 @@ img {
     margin: 10px;
     font-size: 2.25em;
     font-weight: bold;
+    padding-top: 30px;
+}
+
+.sobre p {
+    padding: 20px 20px 0 0;
 }
 
 .sobre-info p {
     color: #7E5C24;
     font-size: 1.25em;
     line-height: 1.4; 
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
+.gato1 {
+    display: flex;
+    max-width: 300px;
+    max-height: 435px;
+    margin: 10px auto;
+
+}
+
+.gatos {
+    max-width: 310px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.sobre-imagem {
+    padding: 12px;
+}
 
 
