@@ -190,7 +190,7 @@ img {
 
 .ciclo-item h2 {
     text-align: center;
-    color: #8A939D;
+    color: #C59A54;
     font-size: 2em;
 }
 
@@ -213,6 +213,56 @@ img {
     display: block;
     width: 6px;
     height: 6px;
-    background:#8A939D;
+    background:#C59A54;
     border-radius: 3px;
 }
+
+/* Curiosidades */
+
+.curiosidades {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curiosidade {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.curiosidade h2 {
+    font-size: 1.5em;
+    color: #624E2E;
+    margin-bottom: 10px;
+}
+
+.curiosidade h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.curiosidade:nth-of-type(3n+1) h2::before {
+    background: #A0E7E5;
+}
+
+.curiosidade:nth-of-type(3n+2) h2::before {
+    background: #FFAEBC;
+}
+
+.curiosidade:nth-of-type(3n+3) h2::before {
+    background: #ae81ff;
+}
+
+.curiosidade p {
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: #7E5C24;
+}
+
+
+
+
