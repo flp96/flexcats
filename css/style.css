@@ -120,6 +120,20 @@ img {
     padding: 12px;
 }
 
+@media (max-width: 767px) {
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }   
+    .sobre-info, .gatos {
+        width: 100%;
+    }
+    .sobre-imagem img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /* Raças */
 
 .racas {
@@ -200,6 +214,7 @@ img {
     margin: 20px auto;
     font-size: 1.em;
     margin-top: 30px auto;
+    align-items: flex-end;
 }
 
 .ciclo-item li {
