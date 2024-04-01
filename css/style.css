@@ -294,8 +294,7 @@ img {
 }
 
 .newsletter-info {
-    flex: 1 1 calc(50% - 10px); 
-    margin-bottom: 20px; 
+    flex: 1 1 calc(50% - 10px);  
 }
 
 .newsletter-info h2 {
